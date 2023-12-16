@@ -1,38 +1,25 @@
 .App {
   text-align: center;
+  margin-top: 250px;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-input>input{
+  outline: green;
+  width: 30%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-input>label{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-right: 280px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.signUpBtn{
+  background-color: blue;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: 10%;
+  height:30px;
+  border: none;
 }
